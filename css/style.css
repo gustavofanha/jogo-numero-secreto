@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --bg: url("../img/bg.svg");
+    --bg-color: #86005a;
+    --primary-color: #D8D8D8;
+    --box-color: #E80F88;
+}
+
+body{
+    background: var(--bg);
+    background-size: cover;
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.mensagem {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid var(--box-color);
+    font-weight: bold;
+    font-size: 4em;
+    padding: 5px;
+    margin: 20px;
+}
+
+button {
+    background: none;
+    font-family: var(--font-family);
+    font-size: 2em;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
