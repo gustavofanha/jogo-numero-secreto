@@ -1,5 +1,5 @@
 const menorValor = 0
-const maiorValor = 99
+const maiorValor = 999
 const numeroSecreto = geradorDeNumero()
 
 function geradorDeNumero() {
